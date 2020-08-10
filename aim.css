@@ -1,0 +1,24 @@
+@keyframes alphamenu {
+  from {
+    position: absolute;
+    right: 1%;
+    display: none;
+  }
+  to {
+    position: absolute;
+    right: -50%;
+    display: block;
+  }
+}
+@keyframes betamenu {
+  from {
+    position: absolute;
+    right: -50%;
+    display: block;
+  }
+  to {
+    position: absolute;
+    right: 1%;
+    display: none;
+  }
+}

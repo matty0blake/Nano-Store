@@ -1,0 +1,61 @@
+.cydia {
+  overflow-y: scroll;
+  height: 88vh;
+}
+
+.whatiscydia,
+.harms,
+.goodsofcydia {
+  height: auto;
+  border: 1px solid grey;
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+h3 {
+  text-align: right;
+  margin-right: 5%;
+}
+.alphaway {
+  width: 99%;
+  height: 5vh;
+  background-color: lawngreen;
+}
+.jailwayheading {
+  position: relative;
+  top: 20px;
+  color: rgb(42, 42, 42);
+  border: 1px solid grey;
+
+  font-size: 110%;
+  text-align: center;
+  margin: auto;
+}
+
+#cydia01 {
+  animation-duration: 5s;
+}
+.pcways {
+  width: 100%;
+}
+.pcwayssys {
+  position: relative;
+  top: 2vh;
+}
+.windows,
+.linux {
+  position: relative;
+  background-color: #f2f2f2;
+  width: 100%;
+  margin-top: 1vh;
+  height: 6vh;
+  text-align: center;
+  background-color: grey;
+}
+.windows {
+}
+.linux {
+}

@@ -1,0 +1,24 @@
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+.cydiap {
+  margin-top: 3%;
+}
+
+.of-scr {
+  overflow: scroll;
+}
+
+.of-hid {
+  overflow: hidden;
+}
+.of-vis {
+  overflow: visible;
+}
+.mg-b {
+  margin-bottom: 10px;
+}

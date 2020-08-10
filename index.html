@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nano Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cydia.css" />
+    <link rel="stylesheet" href="keys.css">
+    <link rel="stylesheet" href="aim.css">
+  </head>
+  <body>
+    <header>
+      <img
+        class="nanoLogo"
+        src="img/kindpng_4652726.png"
+        alt="Nano Logo"
+        id="alpha"
+        onkeydown=""
+      />
+      <h1 class="nanoName">Nano Store</h1>
+      <img
+        class="menuLight"
+        id="menuLight"
+        src="img/light/dehaze-black-18dp.svg"
+        alt="menu"
+        onclick="openmenu()"
+      /><!-- image of menu for Dark Mode -->
+      <img
+        class="menuDark"
+        id="menuDark"
+        src="img/dark/dehaze-white-18dp.svg"
+        alt="menu"
+      /><!-- image of menu for Dark Mode -->
+    </header>
+    <hr style="background-color: blue; height: 1px;" />
+
+    <div class="menu" id="menu" style="display: none; animation-name: none;">
+      <div class="menuList">
+        <h4 onclick="s0()" class="menuSelection">Home</h4>
+        <h4 onclick="s1()" class="menuSelection">Cydia</h4>
+        <h4 onclick="s2()" class="menuSelection">Games</h4>
+        <h4 onclick="s3()" class="menuSelection">Appstore</h4>
+        <h4 onclick="s4()" class="menuSelection">Tweaked Apps</h4>
+        <h4 onclick="s5()" class="menuSelection">Log In</h4>
+      </div>
+      <!-- menuList -->
+    </div>
+    <!-- menu -->
+    <main>
+      <div class="home" id="home" style="display: none;">
+        <div class="alphahome">
+          <h1 class="hheading">Welcome To Nano Store</h1>
+        </div>
+        <!-- ALPHA HOME-->
+
+        <div class="betahome">
+          <h3>
+            in Nano Store you will get
+            <hr />
+            > how to install cydia on your device
+            <hr />
+            > most usefull source for your cydia
+            <hr />
+            > best tweaks for your cydia
+          </h3>
+          <br />
+          <h3>
+            in games section you will find
+            <hr />
+            > most intrested games
+            <hr />
+            > with kurdish describes
+            <hr />
+          </h3>
+          <br />
+          <h3>
+            in app store section you will find
+            <hr />
+            > best apps for( design , installing video , etc)
+            <hr />
+            > with kurdish describes
+            <hr />
+            > best choices apps
+          </h3>
+          <br />
+          <h3>
+            in app tweakedapps section you will find
+            <hr />
+            > tweaked apps without cydia
+          </h3>
+        </div>
+        <!-- BETA HOME-->
+        <div class="deltahome">
+          <h1>Go And have Fun</h1>
+        </div>
+      </div>
+      <!-- this is HOME section-->
+
+      <div
+        class="cydia"
+        style="display: block; position: absolute; height: 90vh; width: 100%;"
+        id="cydia"
+      >
+        <div class="whatiscydia " id="whatiscydia"  >
+          <h3>
+            سیدیا چیە؟
+          </h3>
+
+          <p class='cydiap show mg-b' id="cydiaP1">
+            جەیل برێک پرۆسەیەکە کە بەکارهێنەرانی سیستەمی ئای ئۆ ئێس ئەنجامی
+            ئەدەن کە پەیوەندی سیستەمی موبایلەکەی بە کۆمپانیای ئەپڵەوە ئە
+            ئەپچڕێنێت و ڕێگەت ئەدا ڕووتی سیستەمەکە ببیت واتە سیستەمەکە بەتەواوی
+            بکەوێتە ژێر دەستت کە پێش جەیل برێک ناتوانی دەستت پێیان بگات لە
+            ڕێگەیەوە ئەتوانی ئەو بەرنامانەی کە لەناو ئەپ ستۆرا نین دایان بگریت و
+            هەروەها تایبەتمەندی و گۆڕانکاری تەواو لە سیستەمەکەدا بکەیت
+          </p>
+        </div>
+
+        <div class="harms" id="harms">
+          <h3 >
+            زیانەکانی چیە؟
+          </h3>
+
+          <p class='cydiap show mg-b' id="cydia02">
+            هەموو شتێک سوود و زیانی خۆی هەیە٠ بە جەیل برێک کردنی موبایلەکەت بۆ
+            بەکار خستنی سیدیا تۆ سیستەمەکە بەتەواوت سەربەخۆ ئەبێت و ئەتوانی
+            هەمووجۆرە ئەپێک و کۆدێکی تیا بنوسی بەمەش هاکەرەکان بە ئاسان تر
+            ئەتوانن دەستیان بگاتە سیستەمەکەت ئەمەش لەڕیگەی دابەزاندی ئەو ئەپانە
+            یان تویک و زێمانەی لە سیدیاوە دایان ئەگریت بۆیە پێویستە زۆر ئاگادار
+            بیت و لە خۆتەوە بەبێ زانیاری هیچ جۆرە شتێک لە سیدیاوە دانەگریت ئەمەش
+            ئەتپارێزی
+  
+          </p>
+        </div>
+
+        <div class="goodsofcydia" id="goodsofcydia">
+          <h3 ">
+            سودەکانی چیە؟
+          </h3>
+
+          <p id="cydia03" class='cydiap show mg-b'>
+            ئازادی تەواوت ئەبێت بەسەر سیستمەکەوە و ئەتوانئ هەموو ئەوکارانەی لە
+            توانای ئامێرەکەتا هەیە بەکاری بهێنیت و دەسکاری دیزاینی هەموو بەشە
+            کانی بکەیت و زۆربەی بەرنامە بە پارەکانت بە بێ بەرامبەر و بە کڕاک
+            کراوی دەست بکەوێت
+          </p>
+        </div>
+
+         
+
+
+        <br />
+        <br />
+        <br />
+      <div>
+      <!-- this is CYDIA section-->
+
+      <div class="games" style="display: none;" id="games"></div>
+      <!-- this is GAMES section-->
+
+      <div class="appstore" style="display: none;" id="appstore">
+        <div
+          class="alphaapps"
+          onclick="desgin()"
+          id="alphaapps"
+          style="height: 8vh;"
+        >
+          <h2>Video Editing</h2>
+        </div>
+      </div>
+      <!-- this is APPSTORE section-->
+
+      <div class="tweakedapps" style="display: none;" id="tweakedapps">
+        <h3>this is tweaked apps section</h3>
+      </div>
+      <!-- this is TWEAKED-APPS section-->
+
+
+        <style>
+          input {
+            border-radius: 20px;
+          }
+          #i01,
+          #i02,
+          #i03 {
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 10vh;
+            height: 30px;
+            width: 200px;
+            text-align: center;
+            background-color: #f2f2f2;
+          }
+
+          #i02 {
+            top: 20vh;
+          }
+          #i03 {
+            top: 30vh;
+          }
+          #signup,
+          #login {
+            position: absolute;
+            width: 100px;
+            height: 35px;
+            top: 40vh;
+            background-color: whitesmoke;
+          }
+          #signup {
+            left: 20%;
+          }
+          #login {
+            right: 20%;
+          }
+          #login:active,
+          #signup:active {
+            width: 110;
+            height: 40px;
+            top: 39.5vh;
+            background-color: lightgrey;
+          }
+        </style>
+      </div>
+      <!-- LOG IN-->
+    </main>
+    <script src="cydia.js"></script>
+    <script src="dynamic.js"></script>
+  </body>
+</html>

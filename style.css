@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+@font-face {
+  font-family: font1;
+  src: url(fonts/UniMahanShahen.ttf);
+}
+@font-face {
+  font-family: font2;
+  src: url(fonts/NizarNastaliqKurdish.ttf);
+}
+@font-face {
+  font-family: font3;
+  src: url(fonts/K24KurdishLight-Light.ttf);
+}
+@font-face {
+  font-family: font4;
+  src: url(fonts/BananItalic.ttf);
+}
+@font-face {
+  font-family: font5;
+  src: url(fonts/Banan.ttf);
+}
+@font-face {
+  font-family: font6;
+  src: url(fonts/h11.TTF);
+}
+@font-face {
+  font-family: font7;
+  src: url(fonts/h22.TTF);
+}
+@font-face {
+  font-family: font8;
+  src: url(fonts/h33.TTF);
+}
+@font-face {
+  font-family: font9;
+  src: url(fonts/h44.TTF);
+}
+
+header {
+  display: flex;
+  background-color: aqua;
+  width: 100%;
+  height: 10vh;
+}
+.nanoLogo {
+  position: relative;
+  height: 90%;
+  left: 2%;
+  top: 5%;
+}
+.nanoName {
+  font-size: 200%;
+  position: absolute;
+  margin-left: 30%;
+  justify-content: center;
+  justify-items: center;
+  top: 3vh;
+  text-align: center;
+  display: none;
+}
+
+.menuLight,
+.menuDark {
+  position: absolute;
+  left: 83%;
+  height: 8vh;
+  top: 1vh;
+}
+.menuDark {
+  display: none;
+}
+.menu {
+  position: absolute;
+  z-index: 1;
+  background-color: royalblue;
+  height: 90vh;
+  width: 60%;
+  right: 50%;
+  border-radius: 20px 10px 10px 20px;
+  animation-duration: 0.2s;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+  opacity: 95%;
+}
+.menuList {
+  position: absolute;
+  list-style: none;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: 5% auto auto auto;
+}
+.menuSelection {
+  margin-top: 20%;
+  border-radius: 20px;
+  height: 30px;
+}
+main {
+  position: absolute;
+  width: 100%;
+  height: 88vh;
+  z-index: -1;
+}
+
+.hhading {
+  position: relative;
+  top: 5vh;
+  text-align: center;
+  font-size: x-large;
+}
+.alphahome {
+  position: relative;
+  margin: auto;
+  width: 99%;
+  text-align: center;
+}
+.betahome {
+  margin: 5vh auto auto auto;
+  width: 98%;
+}
+.deltahome {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 99%;
+  bottom: 0;
+}
+.alphaapps {
+  margin: auto;
+  height: 8vh;
+  width: 99%;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  position: relative;
+  margin: auto;
+  top: 2vh;
+}
+h3 {
+  text-align: right;
+  margin: 10px 0 0 100px;
+  font-size: 150%;
+  font-family: font6;
+  font-weight: bold;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+p {
+  text-align: right;
+  margin: auto 20px auto 20px;
+}
